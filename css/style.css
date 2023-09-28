@@ -230,10 +230,10 @@ main{
 }
 .heading{
   text-align: center;
-  font-size: 3rem;
-  color: aqua;
   text-transform: capitalize;
-  padding: 0rem 0;
+  font-size: 35px;
+  margin-bottom: 0.5%;
+  margin-top: 8%;
 }
 .sobre .box-container{
   display: grid;
