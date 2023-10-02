@@ -237,56 +237,56 @@ main{
 }
 .sobre .box-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, 25rem);
+  grid-template-columns: repeat(auto-fit, 20rem);
   justify-content: center;
   align-items: flex-start;
   gap: 1.5rem;
 
 }
 .sobre .box-container .box{
-  border-radius: 2rem;
+  border-radius: 1rem;
   box-shadow:0 3px 6px rgba(0, 0, 0, 0.23);
   border: #cfa301;
-  padding: 2rem ;
-  background:#000;
+  padding: 1rem ;
+  background:#fff;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 .sobre .box-container .box i{
-  height: 4.5rem;
-  width: 5rem;
-  line-height: 4.5rem;
+  height: 2.5rem;
+  width: 3rem;
+  line-height: 2.5rem;
   font-size: 1.8rem;
-  color: #000;
+  color: #fff;
   border-radius: .5rem;
-  background-color: #460307;
+  background-color: #a3000a;
   text-align: center;
   padding-bottom: .5rem;
 }
 .sobre .box-container .box h3{
   font-size:1.4rem;
-  color: yellowgreen;
+  color: #a3000a;
   padding-bottom: .4rem;
   text-transform: capitalize;
   
 }
 .sobre .box-container .box span{
-  color: rgb(255, 0, 225);
+  color: #000;
   font-size: .9rem;
 }
 .sobre .box-container .box:hover{
   background-color: #FFF;
 }
 .sobre .box-container .box:hover h3{
-  color: #575051;
+  color: #000;
 }
 .sobre .box-container .box:hover span{
-  color: blueviolet;
+  color: #a3000a;
 }
 .sobre .box-container .box:hover i{
-  color: coral;
-  background-color: yellow;
+  color: #fff;
+  background-color: #740008;
 }
 
 
