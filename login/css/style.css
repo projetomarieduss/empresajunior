@@ -1,6 +1,6 @@
 
 body{
-  background-color: #9F0303;
+  background-color: #a3000a;
   font-family: 'Poppins', sans-serif;
   overflow: hidden;
 
@@ -38,11 +38,13 @@ body{
   margin-top: 10px;
   background-color: #E8E5E5;
   padding-left: 10px;
-  color: #9F0303;
+  color: #a3000a;
   border: none;
   height: 45px;
   outline: none;
-  border-radius: 8px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: 'Poppins',sans-serif;
 }
 
 .login img{
@@ -51,26 +53,30 @@ body{
 }
 
 input::placeholder{
-  color: #9F0303;
-  font-size: 14px;
+  color: #a3000a;
+  font-size: 1rem;
   
 }
 
 form [type="submit"]{
   display: block;
-  background-color: #9F0303;
-  font-size: 20px;
+  background-color: #a3000a;
+  font-size: 16px;
   color: #fff;
-  font-weight: bold;
   cursor: pointer;
+  font-weight: 100;
+  width: 100%;
 }
-
+form [type="submit"]:hover{
+  background-color: #fac303;
+}
 p{
-  color: #9F0303;
+  color: #a3000a;
+  font-weight: bold;
 }
 
 a{
-  color: #F6C314;
+  color: #fac303;
   text-decoration: none;
   margin-left: 10px;
 }
